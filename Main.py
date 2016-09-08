@@ -134,7 +134,7 @@ class DataMine:
             elif self.degree is True:
                 driver.find_element_by_id("id_udeg").click()
             else:
-                print "An unkown error has occured, please re run the program, thank you"
+                print "An unkown error has occurred, please re run the program, thank you"
             driver.find_element_by_id("id_qall").click()
             coords = driver.find_element_by_id("id_main")
             coords.send_keys(coords)
